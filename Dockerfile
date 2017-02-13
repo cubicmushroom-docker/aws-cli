@@ -4,6 +4,7 @@ MAINTAINER WebOps <webops_team@pebble.com>
 
 RUN apk update && apk upgrade \
     && apk --update add \
+        less \
         groff \
         python \
         py-pip \
