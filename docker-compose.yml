@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  aws:
+    build:  .
+    image:  cubicmushroom/aws-cli
+    volumes:
+      - ${HOME}/.aws/credentials:${HOME}/.aws/credentials
